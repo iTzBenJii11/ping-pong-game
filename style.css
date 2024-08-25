@@ -1,0 +1,61 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    padding: 100px;
+}
+
+#photo{
+    width: 600px;
+    height: 300px;
+}
+
+#heading{
+    font-size: 20px;
+}
+
+#currentScore{
+    margin: 0px;
+    font-weight: 400;
+}
+h2{
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0px;
+}
+h3{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#userClick button {
+    width:200px;
+    height: 40px;
+    color: white;
+}
+
+#addScoreP1Btn{
+    background-color: green;
+    border: none;
+    
+}
+#addScoreP2Btn{
+    background-color: blue;
+    border: none;
+}
+#resetBtn{
+    background-color: red;
+    border: none;
+
+}
+
+#number{
+    height: 30px;
+    background-color: #03fce8;
+    color: rgb(0, 0, 0);
+    border: none;
+}
